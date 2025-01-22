@@ -1,12 +1,10 @@
 package Collectionn.Set;
 
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Collections;
 import java.util.TreeSet;
 
 
-public class Hashset {
+public class Hashset<I extends Number> {
     public static void main(String[] args) {
         HashSet<Integer> set = new HashSet<>();
         set.add(15);

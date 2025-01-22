@@ -18,7 +18,6 @@ public class Test3 {
                 i++;
             }
         }
-
         System.out.println(Arrays.toString(common));
     }
 }
